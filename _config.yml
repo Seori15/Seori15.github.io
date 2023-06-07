@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "myskin" # "default"  "air", "aqua", "contrast", , "d
 
 # Site Settings
 locale                   : "ko-KR" # 블로그 사용 언어
-title                    : "블로그 타이틀" # 블로그 타이틀
+title                    : "Seori Log" # 블로그 타이틀
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "블로그 유저 닉네임"
-description              : "블로그 간단 설명"
+name                     : "일상을 기록하는 개발 꿈나무"
+description              : "Seori의 일상적이고 개방적인 private 작업 공간"
 url                      : "https://Seori15.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "유저이름/comments" #댓글 경로 / github name/repository
@@ -85,7 +85,7 @@ facebook:
   publisher              :
   
   
-og_image                 :  "/assets/images/dol_kakao.jpg" # Open Graph/Twitter default site image
+og_image                 :  "/assets/images/logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -103,21 +103,21 @@ analytics: # 블로그 접근 경로 확인 코드
 
 # Site Author / 사이드바 소개 부분
 author:
-  name             : "닉네임"
+  name             : "Seori"
   avatar           : "/assets/images/profile.jpg"
-  bio              : "간단한 글귀"
-  location         : "사는 지역"
+  bio              : "잠시 쉬었다 가는 저의 공간에 어서오세요 :)"
+  location         : "Wrocław, Poland"
   
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:이메일주소@gmail.com"
+      url: "mailto:wlstn6278@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/유저이름"
+      url: "https://github.com/Seori15"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/인스타 아이디"
+      url: "https://www.instagram.com/seori_16"
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -134,7 +134,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/유저이름"
+      url: "https://github.com/Seori15"
     #- label: "Twitter"
     #  icon: "fab fa-fw fa-twitter-square"
       # url:
@@ -220,7 +220,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
