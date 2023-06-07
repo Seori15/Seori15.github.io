@@ -19,7 +19,7 @@ locale                   : "ko-KR" # 블로그 사용 언어
 title                    : "Seori Log" # 블로그 타이틀
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "일상을 기록하는 개발 꿈나무"
+name                     : "Seori의 일상"
 description              : "Seori의 일상적이고 개방적인 private 작업 공간"
 url                      : "https://Seori15.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
