@@ -105,7 +105,7 @@ analytics: # 블로그 접근 경로 확인 코드
 author:
   name             : "Seori"
   avatar           : "/assets/images/profile.jpg"
-  bio              : "잠시 쉬었다 가는 저의 공간에 어서오세요 :)"
+  bio              : "잠시 쉬어가는 공간에 어서오세요 :)"
   location         : "Wrocław, Poland"
   
   links:
