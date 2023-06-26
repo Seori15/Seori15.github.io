@@ -22,13 +22,13 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithm_theory" %}
-                        <li><a href="/categories/diary_poland" class="">개념공부({{category[1].size}})</a></li>
+                        <li><a href="/categories/algorithm_theory" class="">개념공부({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
                 
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithm_problem" %}
-                        <li><a href="/categories/diary_poland" class="">문제풀이({{category[1].size}})</a></li>
+                        <li><a href="/categories/algorithm_problem" class="">문제풀이({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
