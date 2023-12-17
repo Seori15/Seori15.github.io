@@ -1,5 +1,5 @@
 ---
-title: "문제풀이"
+title: "코코아톡 챌린지"
 layout: archive
 permalink: categories/study_kokoa
 author_profile: true
