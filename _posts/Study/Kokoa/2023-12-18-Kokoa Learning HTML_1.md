@@ -1,5 +1,5 @@
 ---
-title: "코코아톡 챌린지 2강 HTML①"
+title: "코코아톡 챌린지 2강 HTML Part1"
 excerpt: "코코아 챌린지 사전학습"
 
 categories:
