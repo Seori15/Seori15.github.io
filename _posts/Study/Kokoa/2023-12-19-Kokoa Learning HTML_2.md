@@ -20,21 +20,21 @@ last_modified_at: 2024-01-02
 
 HTML 문서의 구조를 전체적을 보면 <head>와 <body>로 나뉜다.
 
-<body>는 지금까지 실습했던, 페이지에 보여지는 부분을
+태그 <body>는 지금까지 실습했던, 페이지에 보여지는 부분을
 
-<head>는 그 외 보여지지 않는 부분을 담당한다.
+태그 <head>는 그 외 보여지지 않는 부분을 담당한다.
 
 ### #2.6 It’s All About the Head
 
 <script src="https://gist.github.com/Seori15/4441f7a999e185490b505bf555a98177.js"></script>
 
-<head> 안에는 사이트가 검색 엔진에서 표시되는 title, description, 언어 설정, 썸네일 등을 설정하는 각종 태그가 위치한다.
+태그 <head> 안에는 사이트가 검색 엔진에서 표시되는 title, description, 언어 설정, 썸네일 등을 설정하는 각종 태그가 위치한다.
 
 ### #2.7 More Tags
 
-<head>, <body> 포함해서 수많은 HTML 태그들이 존재하지만, 전부 외울 필요는 없다.
+태그 <head>와 <body>를 포함해서 수많은 HTML 태그들이 존재하지만, 전부 외울 필요는 없다.
 
-더 많은 태그가 궁금하다면 MDN 사이트에서 확인할 수 있다.([https://developer.mozilla.org/en-US/docs/Web/HTML/Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element))
+더 많은 태그가 궁금하다면 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">MDN 사이트</a>에서 확인할 수 있다.
 
 앞으로는 직접 개발하면서 필요한 태그들을 익혀서 사용할 수 있도록 한다.
 
@@ -42,11 +42,11 @@ HTML 문서의 구조를 전체적을 보면 <head>와 <body>로 나뉜다.
 
 <script src="https://gist.github.com/Seori15/3e5a4ed8a7f66bb2f8051bbb1fe6bcce.js"></script>
 
-<form> 태그를 사용하면 사용자에게 여러 입력값을 받아 브라우저에게 넘겨줄 수 있다.
+태그 <form>을 사용하면 사용자에게 여러 입력값을 받아 브라우저에게 넘겨줄 수 있다.
 
-<label> 태그는 <input>과 함께 사용되어 input 박스로 커서를 연결해주는 역할을 한다.
+태그 <label>은 <input>과 함께 사용되어 input 박스로 커서를 연결해주는 역할을 한다.
 
-이 때 <input> 태그의 id attribute와 동일한 값이 매칭되어야 하는데, id는 unique한 값이어야 한다.
+이 때 태그 <input>의 id attribute와 동일한 값이 매칭되어야 하는데, id는 unique한 값이어야 한다.
 
 적절한 attribute를 사용하면 비밀번호 규칙을 정하거나, 업로드 파일 형식을 제한하는 등 강력한 기능을 지원해준다.
 
