@@ -20,9 +20,7 @@ last_modified_at: 2024-01-02
 
 ## #2.1 Our First HTML File and Errors
 
-```HTML
-Hello! This is my first HTML file!
-```
+<script src="https://gist.github.com/Seori15/77431c027baaf080f42c81d0a77eaca6.js"></script>
 
 HTML 파일을 작성하고 브라우저에서 열면, 위 텍스트가 그대로 출력된다.
 
