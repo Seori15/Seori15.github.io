@@ -44,9 +44,9 @@ HTML 문서의 구조를 전체적을 보면 <head>와 <body>로 나뉜다.
 
 태그 <form>을 사용하면 사용자에게 여러 입력값을 받아 브라우저에게 넘겨줄 수 있다.
 
-태그 <label>은 <input>과 함께 사용되어 input 박스로 커서를 연결해주는 역할을 한다.
+태그 <label>은 input과 함께 사용되어 input 박스로 커서를 연결해주는 역할을 한다.
 
-이 때 태그 <input>의 id attribute와 동일한 값이 매칭되어야 하는데, id는 unique한 값이어야 한다.
+이 때 input의 id attribute와 동일한 값이 매칭되어야 하는데, id는 unique한 값이어야 한다.
 
 적절한 attribute를 사용하면 비밀번호 규칙을 정하거나, 업로드 파일 형식을 제한하는 등 강력한 기능을 지원해준다.
 

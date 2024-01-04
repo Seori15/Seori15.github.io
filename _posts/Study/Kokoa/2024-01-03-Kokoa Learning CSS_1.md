@@ -1,17 +1,17 @@
 ---
-title: "코코아톡 챌린지 2강 HTML Part1"
+title: "코코아톡 챌린지 2강 CSS Part1"
 excerpt: "코코아 챌린지 사전학습"
 
 categories:
   - Study_kokoa
 tags:
-  - [Study, TIL, HTML]
+  - [Study, TIL, CSS]
 
 toc: true
 toc_sticky: true
 
-date: 2023-12-19
-last_modified_at: 2024-01-02
+date: 2024-01-03
+last_modified_at: 2024-01-03
 ---
 
 # #2. Learning HTML
