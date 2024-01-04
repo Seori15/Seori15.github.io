@@ -14,61 +14,50 @@ date: 2023-12-19
 last_modified_at: 2024-01-02
 ---
 
-# #2. Learning HTML
+### #2.5 More Tags and Head
 
-웹사이트의 기본 뼈대를 이루는 HTML부터 살펴보자!
+<script src="https://gist.github.com/Seori15/4686eb7b8b1047f201b418204c2dfa16.js"></script>
 
-## #2.1 Our First HTML File and Errors
+HTML 문서의 구조를 전체적을 보면 <head>와 <body>로 나뉜다.
 
-Hello! This is my first HTML file!
+<body>는 지금까지 실습했던, 페이지에 보여지는 부분을
 
-HTML 파일을 작성하고 브라우저에서 열면, 위 텍스트가 그대로 출력된다.
+<head>는 그 외 보여지지 않는 부분을 담당한다.
 
-여기서 우리가 짚고 가야할 부분이 있다.
+### #2.6 It’s All About the Head
 
-1. 위 파일은 HTML 문법에 맞춰 작성되지 않았다. 그저 텍스트일 뿐이다.
-2. 그러나 브라우저는 아무런 오류 없이 내용을 보여주고 있다.
+<script src="https://gist.github.com/Seori15/4441f7a999e185490b505bf555a98177.js"></script>
 
-즉, 브라우저는 HTML 파일에 에러가 있든 없든 아무 경고 없이 화면을 띄운다.
+<head> 안에는 사이트가 검색 엔진에서 표시되는 title, description, 언어 설정, 썸네일 등을 설정하는 각종 태그가 위치한다.
 
-## #2.2 Our First HTML Tag
+### #2.7 More Tags
 
-<script src="https://gist.github.com/Seori15/77431c027baaf080f42c81d0a77eaca6.js"></script>
+<head>, <body> 포함해서 수많은 HTML 태그들이 존재하지만, 전부 외울 필요는 없다.
 
-HTML에서 태그는 브라우저에게 의미를 전달하는 역할을 한다.
+더 많은 태그가 궁금하다면 MDN 사이트에서 확인할 수 있다.([https://developer.mozilla.org/en-US/docs/Web/HTML/Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element))
 
-위 예시의 경우 ‘강아지는 animal이야’ 라고 브라우저에게 알려주는 것이다.
+앞으로는 직접 개발하면서 필요한 태그들을 익혀서 사용할 수 있도록 한다.
 
-강아지라는 content의 시작과 끝을 animal이라는 태그가 감싸는 구조로 되어 있다.
+### #2.8 Form Tags
 
-<script src="https://gist.github.com/Seori15/129f5da0ef09555ec254629e4e977ffb.js"></script>
+<script src="https://gist.github.com/Seori15/3e5a4ed8a7f66bb2f8051bbb1fe6bcce.js"></script>
 
-HTML 태그의 아주 명확한 예시로 <h1> ~ <h6> 태그가 있다.
+<form> 태그를 사용하면 사용자에게 여러 입력값을 받아 브라우저에게 넘겨줄 수 있다.
 
-위 코드를 브라우저에서 열면, 저절로 크기와 굵기가 정해진다.
+<label> 태그는 <input>과 함께 사용되어 input 박스로 커서를 연결해주는 역할을 한다.
 
-HTML 문법상 <h1> ~ <h6>이 정의되어 있으며, 브라우저가 이를 이해하고 올바르게 표시해주고 있다는 뜻이다.
+이 때 <input> 태그의 id attribute와 동일한 값이 매칭되어야 하는데, id는 unique한 값이어야 한다.
 
-## #2.3 More Tags and Prettier
+적절한 attribute를 사용하면 비밀번호 규칙을 정하거나, 업로드 파일 형식을 제한하는 등 강력한 기능을 지원해준다.
 
-<script src="https://gist.github.com/Seori15/16384d140599b6304fd8338c746f83a2.js"></script>
+가장 중요한 것은 태그를 달달 외우는 것이 아니라 사용 규칙을 알고 활용할 줄 아는 것이다.
 
-List에 관련된 <ul>과 <ol> 태그를 배우는 시간이었다.
+### #2.10 Semantic HTML
 
-HTML 문법에 맞게 올바른 태그만 입력해도 브라우저가 알아서 순서가 있는, 혹은 없는 리스트를 작성해준다.
+<script src="https://gist.github.com/Seori15/645519565346beb97a8d9d7a5236c67b.js"></script>
 
-Prettier는 VSC의 확장자 프로그램으로, HTML 파일을 작성할 때 자주 태그 때문에 오류가 생기는데, Prettier가 이를 인식하고 적절한 format으로 변경해준다. 이를 사용하려면 아래와 같이 설정해준다.
+위 코드가 Semantic HTML 태그를 사용한 예시이다.
 
-1. 확장 프로그램에서 Prettier 설치
-2. Settings > Editor: Format On Save 체크
-3. Ctrl+Shift+P > Format Document with… > Configure Default Formatter… > Prettier 설정
+HTML에서는 각 구역을 구분하기 위해서 <div>나 <span> 등의 태그를 사용하고는 했다.
 
-## #2.4 Tag Attributes
-
-<script src="https://gist.github.com/Seori15/8c7ab4998e82c1fa2f25f924d529a2f6.js"></script>
-
-HTML의 태그는 각각 attribute를 갖는다. 대표적인 예로 <a>와 <img> 태그가 있다.
-
-모든 태그에 사용 가능한 attribute도 있으며, 각 태그마다 정해진 attribute도 있다.
-
-Attribute 사용 시 띄어쓰기에 유의해야 한다.
+위 예시에서 <header>, <main>, <footer> 등의 태그는 전부 기존의 <div>로 사용해도 되지만, 보는 사람에게도 명확하고 브라우저에게도 명시해줄 수 있는 Semantic 태그를 사용하는 것을 추천한다.
