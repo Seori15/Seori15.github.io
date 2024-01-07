@@ -36,11 +36,9 @@ main axis의 방향은 flex-direction 속성에 의해 지정된다.
 
 ### #3.12 Position
 
-fixed : 첫 기준점 혹은 지정한 위치에 고정된다.
-
-relative: 첫 기준점에서 top, bottom, left, right 값만큼 이동한 곳에 위치한다.
-
-absolute: 기준점이 relative인 부모가 된다.
+- fixed : 첫 기준점 혹은 지정한 위치에 고정된다.
+- relative: 첫 기준점에서 top, bottom, left, right 값만큼 이동한 곳에 위치한다.
+- absolute: 기준점이 relative인 부모가 된다.
 
 ### #3.14-3.16 Pseudo selector
 
@@ -61,17 +59,13 @@ HTML 문서에 id나 class를 추가하기보다는 pseudo selector를 사용하
 
 ### #3.17 States
 
-Status는 HTML 블록의 상태를 나타내며 active, hover, focus, focus-within, visited 5가지가 있다.
+Status는 HTML 블록의 상태를 나타낸다.
 
-active : 현재 블록이 선택되어 있음.
-
-hover : 마우스 커서가 블록 위에 있음.
-
-focus : 키보드로 선택되어 있음.
-
-focus-within : 자식이 선택되어 있음.
-
-visited : 선택된 적 있음. ex)하이퍼링크를 누르고 나면 보라색이 됨
+- active : 현재 블록이 선택되어 있음.
+- hover : 마우스 커서가 블록 위에 있음.
+- focus : 키보드로 선택되어 있음.
+- focus-within : 자식이 선택되어 있음.
+- visited : 선택된 적 있음. ex)하이퍼링크를 누르고 나면 보라색이 됨
 
 ### #3.19 Colors and Variables
 

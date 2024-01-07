@@ -22,8 +22,8 @@ last_modified_at: 2024-01-03
 
 HTML 문서에 CSS를 적용하는 방법 2가지
 
-1. <style> 태그에 CSS문을 작성한다. (inline CSS)
-2. .css 파일을 만들고 <link>한다. (external CSS)
+1. style 태그에 CSS문을 작성한다. (inline CSS)
+2. .css 파일을 만들고 link한다. (external CSS)
 
 ### #3.1 Writing Our First CSS Lines
 
@@ -51,7 +51,7 @@ HTML의 여러 box 요소들은 Block과 Inline으로 나뉜다.
 
 Block은 줄바꿈을 강제하여 자기 옆에 다른 요소가 있을 수 없지만, Inline은 그 반대이다.
 
-대부분은 Block이나 <span>, <a>, <image>는 Inline이다.
+대부분은 Block이나 span, a, image는 Inline이다.
 
 이는 CSS의 display 속성에 의해 바뀔 수 있다.
 
