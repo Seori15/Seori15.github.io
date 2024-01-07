@@ -26,6 +26,13 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Study_chrome" %}
+                        <li><a href="/categories/study_chrome" class="">크롬 앱 챌린지({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
       </li>
       <!-- <li>
         <span class="nav__sub-title">Algorithm</span>
