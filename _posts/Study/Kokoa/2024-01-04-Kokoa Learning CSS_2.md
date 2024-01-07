@@ -1,5 +1,5 @@
 ---
-title: "코코아톡 챌린지 2강 CSS Part2"
+title: "코코아톡 챌린지 3강 CSS Part2"
 excerpt: "코코아 챌린지 사전학습"
 
 categories:
@@ -14,83 +14,67 @@ date: 2024-01-04
 last_modified_at: 2024-01-04
 ---
 
-# #2. Learning HTML
+### #3.8 IDs and Classes
 
-웹사이트의 기본 뼈대를 이루는 HTML부터 살펴보자!
+CSS를 적용하려고 할 때, 우리는 selector가 필요하다.
 
-## #2.1 Our First HTML File and Errors
+HTML 태그 이외에도 ID와 Class를 selector로 사용할 수 있다.
 
-```HTML
-Hello! This is my first HTML file!
-```
+ID는 유일하게 사용되어야 하며 #으로 호출한다.
 
-HTML 파일을 작성하고 브라우저에서 열면, 위 텍스트가 그대로 출력된다.
+Class는 중복으로 사용 가능하며 한 box에 여러 class도 적용 가능하다. .으로 호출한다.
 
-여기서 우리가 짚고 가야할 부분이 있다.
+### #3.10-3.11 Flexbox
 
-1. 위 파일은 HTML 문법에 맞춰 작성되지 않았다. 그저 텍스트일 뿐이다.
-2. 그러나 브라우저는 아무런 오류 없이 내용을 보여주고 있다.
+<script src="https://gist.github.com/Seori15/b9fe2db7cdc713d45500a33c29d7c16e.js"></script>
 
-즉, 브라우저는 HTML 파일에 에러가 있든 없든 아무 경고 없이 화면을 띄운다.
+적용을 위해 자식이 아닌 부모에게 display: flex를 명시한다.
 
-## #2.2 Our First HTML Tag
+justify-content는 main axis, align-items는 cross axis에 적용된다.
 
-```HTML
-<animal>강아지</animal> (HTML 문법에 <animal>이라는 태그는 없다.. 예시일 뿐)
-```
+main axis의 방향은 flex-direction 속성에 의해 지정된다.
 
-HTML에서 태그는 브라우저에게 의미를 전달하는 역할을 한다.
+### #3.12 Position
 
-위 예시의 경우 ‘강아지는 animal이야’ 라고 브라우저에게 알려주는 것이다.
+fixed : 첫 기준점 혹은 지정한 위치에 고정된다.
 
-강아지라는 content의 시작과 끝을 animal이라는 태그가 감싸는 구조로 되어 있다.
+relative: 첫 기준점에서 top, bottom, left, right 값만큼 이동한 곳에 위치한다.
 
-```HTML
-<h1>Hello this is my website!</h1>
-<h2>Hello this is my website!</h2>
-```
+absolute: 기준점이 relative인 부모가 된다.
 
-HTML 태그의 아주 명확한 예시로 <h1> ~ <h6> 태그가 있다.
+### #3.14-3.16 Pseudo selector
 
-위 코드를 브라우저에서 열면, 저절로 크기와 굵기가 정해진다.
+HTML 문서에 id나 class를 추가하기보다는 pseudo selector를 사용하는 편이 훨씬 깔끔하다.
 
-HTML 문법상 <h1> ~ <h6>이 정의되어 있으며, 브라우저가 이를 이해하고 올바르게 표시해주고 있다는 뜻이다.
+- Pseudo selector 활용
+  - first-child
+  - last-child
+  - nth-child(2)
+  - nth-child(2n+1)
+  - p span : p에 속하는 span
+  - p > span : p의 바로 밑 자식인 span
+  - p + span : p의 자식이 아닌 바로 다음 span
+  - p ~ span : p의 자식이 아닌, 바로 다음이 아니어도 형제인 span
+- attribute 활용
+  - input : required
+  - input[placeholder~=”name”]
 
-## #2.3 More Tags and Prettier
+### #3.17 States
 
-```HTML
-<ul>
-    <li>table</li>
-    <li>laptop</li>
-    <li>desktop</li>
-</ul>
+Status는 HTML 블록의 상태를 나타내며 active, hover, focus, focus-within, visited 5가지가 있다.
 
-<ol>
-    <li>table</li>
-    <li>laptop</li>
-    <li>desktop</li>
-</ol>
-```
+active : 현재 블록이 선택되어 있음.
 
-List에 관련된 <ul>과 <ol> 태그를 배우는 시간이었다.
+hover : 마우스 커서가 블록 위에 있음.
 
-HTML 문법에 맞게 올바른 태그만 입력해도 브라우저가 알아서 순서가 있는, 혹은 없는 리스트를 작성해준다.
+focus : 키보드로 선택되어 있음.
 
-Prettier는 VSC의 확장자 프로그램으로, HTML 파일을 작성할 때 자주 태그 때문에 오류가 생기는데, Prettier가 이를 인식하고 적절한 format으로 변경해준다. 이를 사용하려면 아래와 같이 설정해준다.
+focus-within : 자식이 선택되어 있음.
 
-1. 확장 프로그램에서 Prettier 설치
-2. Settings > Editor: Format On Save 체크
-3. Ctrl+Shift+P > Format Document with… > Configure Default Formatter… > Prettier 설정
+visited : 선택된 적 있음. ex)하이퍼링크를 누르고 나면 보라색이 됨
 
-## #2.4 Tag Attributes
+### #3.19 Colors and Variables
 
-```HTML
-<a href="http://google.com" target="_blank">Go to google</a>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYscfUBUbqwGd_DHVhG-ZjCOD7MUpxp4uhNe7toUg4ug&s"/>
-```
+<script src="https://gist.github.com/Seori15/87105630c54bb82ad9096e90f5b991d6.js"></script>
 
-HTML의 태그는 각각 attribute를 갖는다. 대표적인 예로 <a>와 <img> 태그가 있다.
-
-모든 태그에 사용 가능한 attribute도 있으며, 각 태그마다 정해진 attribute도 있다.
-
-Attribute 사용 시 띄어쓰기에 유의해야 한다.
+HTML CSS문에서 다음과 같이 변수를 선언하여 활용할 수 있다.
