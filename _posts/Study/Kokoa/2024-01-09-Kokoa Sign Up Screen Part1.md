@@ -24,7 +24,7 @@ JavaScript는 들어있지 않기 때문에 CSS를 연습할 용도로 껍데기
 
 ## #6.1 Sign Up Screen TIL
 
-<img src="https://drive.google.com/uc?id=1onxOqWQlTL9YI3izwbXZBVtBfYCKyNQm" width="45%">
+<img src="https://drive.google.com/uc?id=1onxOqWQlTL9YI3izwbXZBVtBfYCKyNQm">
 
 [Sign Up Screen Part1 on Github](https://github.com/Seori15/2024_Kokoa_Clone/commit/95b396cfdd8d25bdfbd3242c1bfc0dbfb654269b)
 
