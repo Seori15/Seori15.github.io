@@ -17,7 +17,7 @@ last_modified_at: 2024-01-11
 ## #6.1 Sign Up Screen TIL
 
 <p align="center">
-<img src="https://drive.google.com/uc?id=1yFLVVDCcwBM2rB-u10W7xXAk1KN1ssFl" width="60%">
+<img src="https://drive.google.com/uc?id=1yFLVVDCcwBM2rB-u10W7xXAk1KN1ssFl" width="80%">
 </p>
 
 [Sign Up Screen Part2 on Github](https://github.com/Seori15/2024_Kokoa_Clone/commit/591a5d630851e63ceec349167599620a9c5e1ea4)
