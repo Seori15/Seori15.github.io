@@ -10,14 +10,14 @@ tags:
 toc: true
 toc_sticky: true
 
-date: 2024-01-11
-last_modified_at: 2024-01-12
+date: 2024-01-12
+last_modified_at: 2024-01-13
 ---
 
 ## #6.3 Chats Screen TIL
 
 <p align="center">
-<img src="https://drive.usercontent.google.com/download?id=1Gm23HixHCgQv5fBcyKb3ROJhdgK2FYRZ" width="80%">
+<img src="https://drive.google.com/uc?export=view&id=1Gm23HixHCgQv5fBcyKb3ROJhdgK2FYRZ" width="80%">
 </p>
 
 [Chats Find Screen on Github](https://github.com/Seori15/2024_Kokoa_Clone/commit/8514d054be6ac635bbf7703e9cb00029ec7b2f4e)
@@ -33,7 +33,7 @@ Chats 화면에서 인상깊었던 점은
 ## #6.4 Find Screen TIL
 
 <p align="center">
-<img src="https://drive.usercontent.google.com/download?id=1xv2RS1fNGjqa5-tajSWlLJAUZHnAcnGM" width="80%">
+<img src="https://drive.google.com/uc?export=view&id=1xv2RS1fNGjqa5-tajSWlLJAUZHnAcnGM" width="80%">
 </p>
 
 [Chats Find Screen on Github](https://github.com/Seori15/2024_Kokoa_Clone/commit/8514d054be6ac635bbf7703e9cb00029ec7b2f4e)
