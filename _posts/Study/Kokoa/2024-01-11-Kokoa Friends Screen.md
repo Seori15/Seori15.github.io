@@ -50,7 +50,7 @@ Friends 창에서 사진/이름/설명 3개로 구성된 component가 다른 화
 
 처음에 클론할 화면을 볼 때는 이게 반복되어 사용되는 건지, 어떤 구조로 이루어져 있을 지 가늠이 전혀 안됐었는데, 한 번 따라치고 나니까 화면 구성에 대한 감이 잡히고 있다.
 
-user-component**avatar--xl, user-component**avatar--sm라는 class를 만들었다.
+user-component\_\_avatar--xl, user-component\_\_avatar--sm라는 class를 만들었다.
 
 위에서 말했던 component의 사진 크기가 화면마다 다르게 적용되고 있다.
 
