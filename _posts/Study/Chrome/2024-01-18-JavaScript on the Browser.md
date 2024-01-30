@@ -1,6 +1,6 @@
 ---
-title: "바닐라 JS로 크롬 앱 만들기 1-2강"
-excerpt: "크롬 앱 챌린지 사전학습"
+title: "바닐라 JS로 크롬 앱 만들기 3강 JavaScript on the Browser"
+excerpt: "크롬 앱 챌린지 3강"
 
 categories:
   - Study_chrome
